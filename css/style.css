@@ -262,6 +262,7 @@ img {
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
+  background: #f5f4fa;
 }
 
 .team .description-title {
@@ -281,6 +282,8 @@ img {
 .team-list-item {
   margin-right: 30px;
   flex-basis: calc(100% / 4 - 30px);
+  border-radius: 0px 0px 4px 4px;
+  background: #ffffff;
 }
 
 .team-list-name {
@@ -315,7 +318,7 @@ img {
 }
 
 .footer-contact .logo {
-  display: block;
+  display: inline-block;
   min-width: 145px;
   margin-bottom: 20px;
 }
@@ -392,6 +395,7 @@ img {
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
+  border-radius: 4px;
   background-color: #f5f4fa;
   color: #212121;
 }
@@ -418,6 +422,9 @@ img {
   margin-right: 30px;
   margin-bottom: 30px;
   flex-basis: calc(100% / 3 - 30px);
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  width: 370px;
 }
 
 .portfolio-list-item:nth-last-child(-n + 3) {
